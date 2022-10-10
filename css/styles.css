@@ -33,7 +33,7 @@ background: var(--white-color);
             line-height: 1.19;
             /* identical to box height */
         
-            letter-spacing: 0.03em;
+            
         
             color: var(--accent-color);
 }
@@ -48,7 +48,7 @@ background: var(--white-color);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    
     line-height: 1.14;
     letter-spacing: 0.02em;
 
@@ -72,7 +72,7 @@ color: var(--accent-color);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    
     line-height: 1.14;
     letter-spacing: 0.02em;
 
@@ -144,9 +144,9 @@ background: var(--white-color);
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
-        font-size: 14px;
+        
         line-height: 1.14;
-        letter-spacing: 0.03em;
+        
         text-transform: uppercase;
     
         color: var(--title-text-color);
@@ -155,11 +155,11 @@ background: var(--white-color);
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 14px;
+        
         line-height: 1.71;
         /* or 171% */
     
-        letter-spacing: 0.03em;
+       
     
         color: var(--main-text-color);
 }
@@ -174,7 +174,7 @@ background: var(--white-color);
         font-size: 36px;
         line-height: 1.17;
         text-align: center;
-        letter-spacing: 0.03em;
+        
     
         color: var(--title-text-color);
 }
@@ -201,7 +201,7 @@ background: #F5F4FA;
         font-size: 36px;
         line-height: 1.17;
         text-align: center;
-        letter-spacing: 0.03em;
+       
     
         color: var(--title-text-color);
 }
@@ -218,7 +218,7 @@ background: #F5F4FA;
         /* identical to box height */
     
         text-align: center;
-        letter-spacing: 0.03em;
+        
     
         color: var(--title-text-color);
 }
@@ -231,7 +231,7 @@ background: #F5F4FA;
         /* identical to box height */
     
         text-align: center;
-        letter-spacing: 0.03em;
+        
     
         color: var(--main-text-color);
 }
@@ -247,12 +247,12 @@ background: #F5F4FA;
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 14px;
+       
         line-height: 1.71;
         /* or 171% */
         text-decoration: none;
     
-        letter-spacing: 0.03em;
+        
     
         color: rgba(255, 255, 255, 0.6);
 }
@@ -265,12 +265,12 @@ background: #F5F4FA;
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 14px;
+        
         line-height: 1.71;
         /* or 171% */
         text-decoration: none;
     
-        letter-spacing: 0.03em;
+        
     
         color: var(--white-color);
 }
@@ -300,7 +300,7 @@ background: #F5F4FA;
         /* identical to box height, or 162% */
     
         text-align: center;
-        letter-spacing: 0.03em;
+        
     
         color: var(--title-text-color);
 
@@ -345,7 +345,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
         line-height: 1.88;
         /* identical to box height, or 188% */
     
-        letter-spacing: 0.03em;
+        
     
         color: var(--main-text-color);
  }

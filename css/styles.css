@@ -137,9 +137,20 @@ font-family: 'Roboto';
  .features {
 background: var(--white-color);
  }
- .features .titles {
-    color: var(--white-color);
+
+ .visually-hidden {
+    position: absolute;
+        white-space: nowrap;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        border: 0;
+        padding: 0;
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        margin: -1px;
  }
+
 .features .title {
     font-family: 'Roboto';
         font-style: normal;
@@ -284,11 +295,21 @@ background: #F5F4FA;
         color: var(--white-color);
 }
 
-/* PORTFOLIO PAGE */
+           /* PORTFOLIO PAGE */
 
 /* Filters */
-.portfolio .title {
-    color: var(--white-color);
+
+.visually-hidden {
+    position: absolute;
+        white-space: nowrap;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        border: 0;
+        padding: 0;
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        margin: -1px;
 }
 
 .button-filter {

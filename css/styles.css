@@ -1,3 +1,12 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 :root {
     --main-text-color: #757575;
     --title-text-color: #212121;
@@ -6,6 +15,7 @@
     --white-color: #FFFFFF;
 }
 body {
+    margin: 0;
     font-family: 'Roboto', 'Raleway', sans-serif;
     font-size: 14px;
     letter-spacing: 0.03em;

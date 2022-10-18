@@ -38,7 +38,10 @@ body {
     list-style: none;
 }
 /* Header */
-.page-header {
+.page-header .container {
+    display: flex;
+    flex-direction: row;
+   align-items: center;
 background: var(--white-color);
 border-bottom: 1px solid #ECECEC;;
 }
@@ -54,10 +57,12 @@ border-bottom: 1px solid #ECECEC;;
 }
 
 .logo {
+    
+    margin-right: 93px;
+    margin-top: 24px;
+    margin-bottom: 25px;
     width: 145px;
-        height: 31px;
-        left: 215px;
-        top: 24px;
+       
         text-decoration: none;
         font-family: 'Raleway';
             font-style: normal;
@@ -75,8 +80,17 @@ border-bottom: 1px solid #ECECEC;;
     color: var(--title-text-color);
 }
 
+.navigation {
 
+}
+
+.site-nav {
+    display: flex;
+    min-width: 281px;
+    justify-content: space-between;
+}
 .site-nav  .link {
+    
     text-decoration: none;
     font-family: 'Roboto';
     font-style: normal;
@@ -98,6 +112,13 @@ color: var(--accent-color);
 }
 .site-nav .link.current {
     color: var(--accent-color);
+}
+
+.contacts-header {
+    width: 307px;
+    display: flex;
+    justify-content: space-between;
+   margin-left: 344px;
 }
 
 .contacts-header  .link {
@@ -201,9 +222,16 @@ background: var(--white-color);
         margin: -1px;
  }
 
+ .features-list {
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+ }
+
  .features-item {
-    display: inline-block;
     width: 270px;
+    
  }
 
 .features .title {
@@ -247,9 +275,14 @@ background: var(--white-color);
     
         color: var(--title-text-color);
 }
-
+.work-list img {
+display: block;
+}
 .work-list {
     margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
 }
 .link1 {
 
@@ -265,11 +298,13 @@ background: var(--white-color);
 
 /* Team */
 .team {
+   
     margin-top: 94px;
     padding-top: 94px;
     padding-bottom: 94px;
 background: #F5F4FA;
 }
+
 .team .title {
     font-family: 'Roboto';
         font-style: normal;
@@ -277,13 +312,20 @@ background: #F5F4FA;
         font-size: 36px;
         line-height: 1.17;
         text-align: center;
-       
+       margin-bottom: 50px;
     
         color: var(--title-text-color);
 }
-.cards {
+
+.cards img {
+    display: block;
+}
+.cards{
+    display: flex;
+
     outline: 1px solid red;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    width: 270px;
 
 }
 

@@ -320,12 +320,16 @@ background: #F5F4FA;
 .cards img {
     display: block;
 }
+.card {
+    width: 270px;
+}
 .cards{
     display: flex;
+    justify-content: space-between;
 
     outline: 1px solid red;
     /* margin-top: 50px; */
-    width: 270px;
+    
 
 }
 

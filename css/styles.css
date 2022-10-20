@@ -453,6 +453,18 @@ background: #F5F4FA;
         margin: -1px;
 }
 
+.container .buttons:last-child {
+    margin-right: 0;
+}
+
+.buttons:last-child li {
+    margin-right: 8px;
+}
+
+.battons li:last-child {
+    margin-right: 0;
+}
+
 .buttons {
     width: 575px;
     display: flex;
@@ -471,7 +483,7 @@ background: #F5F4FA;
         line-height: 1.62;
         /* identical to box height, or 162% */
     padding: 6px 22px;
-    min-width: auto;
+    /* min-width: auto; */
         align-items: center;
         text-align: center;
         
@@ -498,19 +510,19 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
 
 .all {
     padding: 6px 25px;
-    width: 73px;
+    min-width: 73px;
 }
 .web-sites {
-    /* width: 125px; */
+    min-width: 125px;
 }
 .applications {
-    width: 112px;
+    min-width: 112px;
 }
 .design {
-    width: 103px;
+    min-width: 103px;
 }
 .marketing {
-    width: 130px;
+    min-width: 130px;
 }
  .portfolio-title {
     font-family: 'Roboto';

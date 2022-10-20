@@ -452,7 +452,7 @@ background: #F5F4FA;
         clip-path: inset(50%);
         margin: -1px;
 }
-
+/* 
 .container .buttons:last-child {
     margin-right: 0;
 }
@@ -461,14 +461,14 @@ background: #F5F4FA;
     margin-right: 8px;
 }
 
-.battons li:last-child {
+.buttons li:last-child {
     margin-right: 0;
-}
+} */
 
 .buttons {
-    width: 575px;
+    min-width: 575px;
     display: flex;
-        justify-content: space-between;
+        justify-content: center;
         margin-left: auto ;
         margin-right: auto;
         padding-bottom: 16px;
@@ -478,7 +478,7 @@ background: #F5F4FA;
     padding: 6px 22px;
     font-family: 'Roboto';
         font-style: normal;
-        font-weight: 500;
+        font-weight: 500; 
         font-size: 16px;
         line-height: 1.62;
         /* identical to box height, or 162% */
@@ -486,6 +486,7 @@ background: #F5F4FA;
     /* min-width: auto; */
         align-items: center;
         text-align: center;
+        letter-spacing: 0.03em;
         
         
     
@@ -510,18 +511,23 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
 
 .all {
     padding: 6px 25px;
+    margin-right: 8px;
     min-width: 73px;
 }
 .web-sites {
+    margin-right: 8px;
     min-width: 125px;
 }
 .applications {
+    margin-right: 8px;
     min-width: 112px;
 }
 .design {
+    margin-right: 8px;
     min-width: 103px;
 }
 .marketing {
+    margin-right: 0;
     min-width: 130px;
 }
  .portfolio-title {
@@ -575,6 +581,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
  }
  
  .portfolio-list-item {
+    padding: 20px 24px;
     background-color: var(--white-color);
     width: 370px;
             flex-basis: calc((100% - 60px) / 3);

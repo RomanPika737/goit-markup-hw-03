@@ -11,8 +11,13 @@ html {
     --main-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
-    --background-color: #F5F5F5;
-    --white-color: #FFFFFF;
+    --second-accent-color: #188CE8;
+    --secondary-background-color: #F5F5F5;
+    --background-color: #FFFFFF;
+    --third-background-color: #F5F4FA;
+    --fourth-background-color: #2F303A;
+    --first-border-color: #ECECEC;
+    --second-border-color: #EEEEEE;
 }
 h1, 
 h2, 
@@ -34,12 +39,13 @@ img {
 
 body {
     
-    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     letter-spacing: 0.03em;
-    background: var(--white-color);
+    background: var(--background-color);
     color: var(--title-text-color);
 }
+
 .list {
     padding: 0;
     margin: 0;
@@ -49,14 +55,14 @@ body {
 
 /* Header */
 .page-header {
-    border-bottom: 1px solid #ECECEC;
+    border-bottom: 1px solid var(--first-border-color);
 }
 
 .page-header .container {
     display: flex;
     flex-direction: row;
    align-items: center;
-background: var(--white-color);
+background: var(--background-color);
 
 }
 
@@ -85,7 +91,6 @@ background: var(--white-color);
        
         text-decoration: none;
         font-family: 'Raleway';
-            font-style: normal;
             font-weight: 700;
             font-size: 26px;
             line-height: 1.19;
@@ -112,8 +117,7 @@ background: var(--white-color);
 .site-nav  .link {
     
     text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: inherit;
     font-weight: 500;
     
     line-height: 1.14;
@@ -143,8 +147,6 @@ color: var(--accent-color);
 
 .contacts-header  .link {
     text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     
     line-height: 1.14;
@@ -163,7 +165,7 @@ color: var(--accent-color);
 }
 .hero {
     /* outline: 1px solid red; */
-    background-color: #2F303A;
+    background-color: var(--fourth-background-color);
     text-align: center;
     height: 600px;
     margin: 0 auto;
@@ -173,8 +175,6 @@ color: var(--accent-color);
 
 .hero .title {
     /* outline: 1px solid red; */
-font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -184,7 +184,7 @@ font-family: 'Roboto';
     letter-spacing: 0.06em;
     text-transform: uppercase;
 
-    color: var(--white-color);
+    color: var(--background-color);
     margin-top: 0;
     margin-bottom: 30px;
 }
@@ -194,8 +194,7 @@ font-family: 'Roboto';
     padding: 10px 32px;
     min-width: 216px;
 
-    font-family: 'Roboto';
-        font-style: normal;
+    font-family: inherit;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.88;
@@ -206,7 +205,7 @@ font-family: 'Roboto';
         text-align: center;
         letter-spacing: 0.06em;
     
-        color: var(--white-color);
+        color: var(--background-color);
         background: var(--accent-color);
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
             border-radius: 4px;
@@ -216,7 +215,7 @@ font-family: 'Roboto';
 
  }
  .button:hover, .button:focus {
-    background-color: #188CE8;
+    background-color: var(--second-accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
  }
@@ -226,7 +225,7 @@ font-family: 'Roboto';
  .features {
    
     /* outline: 1px solid red; */
-background: var(--white-color);
+background: var(--background-color);
  }
 
  .visually-hidden {
@@ -256,8 +255,6 @@ background: var(--white-color);
 
 .features .title {
    
-    font-family: 'Roboto';
-        font-style: normal;
         font-weight: 700;
         
         line-height: 1.14;
@@ -268,8 +265,6 @@ background: var(--white-color);
 }
 .features .text {
     margin-top: 10px;
-    font-family: 'Roboto';
-        font-style: normal;
         font-weight: 400;
         
         line-height: 1.71;
@@ -285,8 +280,6 @@ background: var(--white-color);
 
 }
 .work .title {
-    font-family: 'Roboto';
-        font-style: normal;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.17;
@@ -319,12 +312,10 @@ display: block;
 /* Team */
 .team {
     padding-bottom: 94px;
-background: #F5F4FA;
+    background: var(--third-background-color);
 }
 
 .team .title {
-    font-family: 'Roboto';
-        font-style: normal;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.17;
@@ -338,7 +329,7 @@ background: #F5F4FA;
     display: block;
 }
 .card {
-    background-color: var(--white-color);
+    background-color: var(--background-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
     width: 270px;
@@ -354,8 +345,6 @@ background: #F5F4FA;
 }
 
 .name {
-    font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.19;
@@ -367,8 +356,6 @@ background: #F5F4FA;
         color: var(--title-text-color);
 }
 .position {
-    font-family: 'Roboto';
-        font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.19;
@@ -384,7 +371,7 @@ background: #F5F4FA;
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
-    background: #2F303A;
+    background: var(--fourth-background-color);
 }
 .links {
     
@@ -394,8 +381,6 @@ background: #F5F4FA;
     margin-top: 20px;
 }
 .links .link{
-    font-family: 'Roboto';
-        font-style: normal;
         font-weight: 400;
        
         line-height: 1.71;
@@ -412,8 +397,6 @@ background: #F5F4FA;
 }
 
 .map {
-    font-family: 'Roboto';
-        font-style: normal;
         font-weight: 400;
         
         line-height: 1.71;
@@ -422,7 +405,7 @@ background: #F5F4FA;
     
         
     
-        color: var(--white-color);
+        color: var(--background-color);
 }
 
 .map:hover,
@@ -431,7 +414,7 @@ background: #F5F4FA;
 }
 
 .text-logo1 {
-        color: var(--white-color);
+        color: var(--background-color);
 }
 
            /* PORTFOLIO PAGE */
@@ -476,8 +459,7 @@ background: #F5F4FA;
 .button-filter {
     display: inline-block;
     padding: 6px 22px;
-    font-family: 'Roboto';
-        font-style: normal;
+    font-family: inherit;
         font-weight: 500; 
         font-size: 16px;
         line-height: 1.62;
@@ -494,14 +476,14 @@ background: #F5F4FA;
 
         cursor: pointer;
 
-        background: #F5F4FA;
+        background: var(--third-background-color);
         border: solid transparent;
             border-radius: 4px;
 }
 
 .button-filter:hover,
 .button-filter:focus {
-color: var(--white-color);
+color: var(--background-color);
 background: var(--accent-color);
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
  0px 1px 2px rgba(0, 0, 0, 0.08), 
@@ -531,8 +513,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
     min-width: 130px;
 }
  .portfolio-title {
-    font-family: 'Roboto';
-        font-style: normal;
+  
         font-weight: 700;
         font-size: 18px;
         line-height: 2;
@@ -548,8 +529,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
  }
 
  .portfolio-text {
-    font-family: 'Roboto';
-        font-style: normal;
+   
         font-weight: 400;
         font-size: 16px;
         line-height: 1.88;
@@ -571,9 +551,9 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
         }
 
  .portfolio-text-title-item {
-    border-left: 1px solid #EEEEEE;;
-    border-right: 1px solid #EEEEEE;;
-    border-bottom: 1px solid #EEEEEE;;
+    border-left: 1px solid var(--second-border-color);
+    border-right: 1px solid var(--second-border-color);
+    border-bottom: 1px solid var(--second-border-color);
  }
 
  .portfolio-card {
@@ -582,7 +562,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
  
  .portfolio-list-item {
     padding: 20px 24px;
-    background-color: var(--white-color);
+    background-color: var(--background-color);
     width: 370px;
             flex-basis: calc((100% - 60px) / 3);
  }

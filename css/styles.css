@@ -381,6 +381,7 @@ display: block;
     margin-top: 20px;
 }
 .links .link{
+    font-family: inherit;
         font-weight: 400;
         font-style: normal;
         line-height: 1.71;
@@ -397,6 +398,7 @@ display: block;
 }
 
 .map {
+    font-family: inherit;
         font-weight: 400;
         font-style: normal;
         line-height: 1.71;

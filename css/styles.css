@@ -365,6 +365,16 @@ display: block;
     display: block;
 }
 
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    /* justify-content: space-between; */
+
+    /* outline: 1px solid red; */
+    /* margin-top: 50px; */
+}
+
 .card {
     flex-basis: calc((100% - 90px) / 4);
 
@@ -374,15 +384,6 @@ display: block;
     width: 270px;
 }
 
-.cards{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    /* justify-content: space-between; */
-
-    /* outline: 1px solid red; */
-    /* margin-top: 50px; */
-}
 
 .name {
     margin-top: 30px;

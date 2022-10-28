@@ -58,8 +58,8 @@ body {
 
 /* Header */
 .page-header {
-    padding-top: 24px;
-    padding-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-bottom: 1px solid var(--first-border-color);
 }
 
@@ -94,7 +94,7 @@ background: var(--background-color);
 .logo {
     
     margin-right: 93px;
-    width: 145px;
+    /* width: 145px; */
 
         color: var(--accent-color);
         text-decoration: none;
@@ -116,7 +116,7 @@ background: var(--background-color);
 
 .site-nav {
     display: flex;
-    min-width: 281px;
+    /* min-width: 281px; */
     /* justify-content: space-between; */
 
 }
@@ -131,6 +131,7 @@ margin-right: 50px;
 } */
 .site-nav  .link {
     display: block;
+    padding: 15px 0;
 
     /* 
         width: 281px;
@@ -171,6 +172,7 @@ color: var(--accent-color);
 }
 
 .contacts-header  .link {
+    padding: 10px 0;
     color: var(--main-text-color);
     text-decoration: none;
     font-weight: 500;
@@ -353,6 +355,8 @@ display: block;
 
 .cards img {
     display: block;
+    width: 100%;
+    height: auto;
 }
 
 .cards {
@@ -606,6 +610,12 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
             flex-wrap: wrap;
             /* gap: 30px; */
             margin: -15px;
+        }
+
+        .portfolio-list img {
+            display: block;
+            width: 100%;
+            height: auto;
         }
 
  .portfolio-text-title-item {
